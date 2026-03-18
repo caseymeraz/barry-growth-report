@@ -15,6 +15,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="//js.hs-scripts.com/23597402.js"
+        />
+      </head>
       <body className="antialiased">{children}</body>
     </html>
   );
